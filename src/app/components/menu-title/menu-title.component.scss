@@ -1,0 +1,18 @@
+.container-menu-title{
+  color: white;
+
+  h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
+  hr{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+}

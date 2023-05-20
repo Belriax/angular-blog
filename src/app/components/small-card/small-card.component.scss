@@ -1,0 +1,33 @@
+.container-small-cards{
+  width: 100%;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  // border: 1px solid wheat;
+
+  .container-small-card-content{
+    display: flex;
+    flex-direction: row;
+
+    .small-card-title{
+      width: 100%;
+      max-width: 450px;
+
+      h1, p{
+        margin-left: .7rem;
+      }
+
+      h1{
+        font-size: 1.3rem;
+      }
+
+      p{
+        margin-top: .5rem;
+        font-size: .9rem;
+      }
+    }
+  }
+}
+
+.separator{
+  margin-top: 1rem;
+}
