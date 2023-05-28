@@ -3,9 +3,9 @@
     <img src="https://shrm-res.cloudinary.com/image/upload/c_crop,h_2565,w_4563,x_0,y_104/w_auto:100,w_1200,q_35,f_auto/v1/Magazine/iStock-1442479025_nrh1c9.jpg" width="600" height="330" alt="" srcset="">
   </div>
   <div class="big-card-title">
-    <h1><a href="#">{{cardTitle}}</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
   </div>
   <div class="big-card-description">
-    <a href="#">{{cardDescription}}</a>
+    <a [routerLink]="['content', Id]">{{cardDescription}}</a>
   </div>
 </div>
